@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index.</title>
+    <link rel="stylesheet" href="styles/styles.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
+    <style>
+      body {
+        background-color: lightgray
+      }
+    </style>
+    </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
    
    <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
-  <div class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="navbar navbar-expand-lg bg-body-tertiary">
     <a class="navbar-brand" href="#">
     <img src="images/kynärilogo.png" alt="Bootstrap" width="35" height="28">
     </a>
@@ -35,9 +41,24 @@
           <a class="nav-link" href="CS1.6.html">CS 1.6</a>
         </li>
       </ul>
+      </div>
     </div>
-  </div>
-</nav>
-    <h1>CS2</h1>
+    </nav>
+    <h1>Counter-Strike 2</h1>
+
+    <div id="AutoplayingCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="cs2carousel">
+        <div class="carousel-item active" data-bs-interval="5500">
+          <img src="images/cs2img1.jpg" class="d-block w-50" alt="CS2img1">
+        </div>
+        <div class="carousel-item" data-bs-interval="5500">
+          <img src="images/cs2img2.jpg" class="d-block w-50" alt="CS2img2">
+        </div>
+        <div class="carousel-item" data-bs-interval="5500">
+          <img src="images/cs2img3.jpg" class="d-block w-50" alt="CS2img3">
+        </div>
+      </div>
+
+
   </body>
-  </html>
+</html>

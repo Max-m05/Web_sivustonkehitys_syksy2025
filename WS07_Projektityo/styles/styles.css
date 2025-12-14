@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-family: Lucida Sans;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Lucida Sans;
+}
+
+.cs2carousel {
+    .cs2carousel:hover {
+        animation-play-state: paused;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 15px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    d-block w-50 {
+        width: 100%;
+    }
+}
