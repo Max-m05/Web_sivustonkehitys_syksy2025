@@ -17,8 +17,7 @@ p {
 
 .cs2carousel {
     .cs2carousel:hover {
-        animation-play-state: paused;
-    }
+        animation-play-state: "paused";} 
 }
 
 .card {
