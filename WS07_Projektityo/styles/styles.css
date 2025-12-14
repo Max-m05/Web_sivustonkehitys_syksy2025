@@ -26,6 +26,10 @@ p {
     margin: auto;
 }
 
+video {
+    display: block;
+    margin: auto;
+}
 
 @media (max-width: 600px) {
     h1 {
@@ -36,5 +40,10 @@ p {
     }
     p {
         font-size: 15px;
+    }
+
+    video {
+        width: 220px;
+        height: 180px;
     }
 }
