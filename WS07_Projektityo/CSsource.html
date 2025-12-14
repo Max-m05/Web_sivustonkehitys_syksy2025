@@ -11,20 +11,20 @@
         background-color: lightgray
       }
     </style>
-    </head>
+  </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
    
-   <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
-  <div class="navbar navbar-expand-lg bg-body-tertiary">
-    <a class="navbar-brand" href="#">
-    <img src="images/kynärilogo.png" alt="Bootstrap" width="35" height="28">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+    <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+    <div class="navbar navbar-expand-lg bg-body-tertiary">
+      <a class="navbar-brand" href="#">
+      <img src="images/kynärilogo.png" alt="Bootstrap" width="35" height="28">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
@@ -40,10 +40,46 @@
         <li class="nav-item">
           <a class="nav-link" href="CS1.6.html">CS 1.6</a>
         </li>
-      </ul>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+    </nav>
     <h1>CS Source</h1>
+    <div id="AutoplayingCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="cssourcecarousel">
+        <div class="carousel-item active" data-bs-interval="5500">
+          <img src="images/cssourceimg1.jpg" class="d-block w-50" alt="CSsourceimg1">
+        </div>
+        <div class="carousel-item" data-bs-interval="5500">
+          <img src="images/cssourceimg2.jpg" class="d-block w-50" alt="CSsourceimg2">
+        </div>
+        <div class="carousel-item" data-bs-interval="5500">
+          <img src="images/cssourceimg3.jpg" class="d-block w-50" alt="CSsourceimg3">
+        </div>
+        <div class="carousel-item" data-bs-interval="5500">
+          <img src="images/cssourceimg4.jpeg" class="d-block w-50" alt="CSsourceimg4">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#AutoplayingCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#AutoplayingCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <p>Counter-Strike Source on Valven vuonna 2004 kehittämä ja julkaisema uusittu versio pelisarjan ensimmäisestä versiosta CS 1.6.</p>
+    <p>Peli jatkaa muista sen osista tutuilla konsepteilla ja peli käyttää Source-pelimoottoria jolla peli on uudistettu graafisesti.</p>
+    <p>Counter-Strike: Source on yksi 2000-luvun suosituimmista verkkomoninpeleistä ja sitä on myyty maailmanlaajuisesti yli 14 miljoonaa kappaletta.</p>
+
+    <div class="card" style="width: 15rem;" height: 25px;>
+      <img class="card-img-top" src="images/cssourcelataa.jpg" alt="Card image cap">
+        <div class="card-body">
+        <p class="card-text">Osta CS Source Steamista.</p>
+        <a href="https://store.steampowered.com/app/240/CounterStrike_Source/" class="btn btn-primary">Steam</a>
+      </div>
+    </div>
   </body>
-  </html>
+</html>
