@@ -15,9 +15,9 @@ p {
     font-family: Lucida Sans;
 }
 
-.cs2carousel {
+.AutoplayingCarousel {
     .cs2carousel:hover {
-        animation-play-state: "paused";} 
+        animation-play-state: paused; }
 }
 
 .card {
