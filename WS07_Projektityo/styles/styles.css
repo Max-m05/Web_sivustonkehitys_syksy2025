@@ -16,7 +16,7 @@ p {
 }
 
 .AutoplayingCarousel {
-    .cs2carousel:hover {
+    .AutoplayingCarousel:hover {
         animation-play-state: paused; }
 }
 
