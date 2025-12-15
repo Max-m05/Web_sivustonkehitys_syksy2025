@@ -30,7 +30,7 @@ video {
     margin: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 16px;
     }
@@ -44,5 +44,9 @@ video {
     video {
         width: 220px;
         height: 180px;
+    }
+
+    .etusivucs {
+        width: 250px;
     }
 }
