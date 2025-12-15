@@ -17,7 +17,7 @@ p {
 
 .AutoplayingCarousel {
     .AutoplayingCarousel:hover {
-        animation-play-state: paused; }
+            animation-play-state: paused; }
 }
 
 .card {
